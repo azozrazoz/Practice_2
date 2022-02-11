@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DOSHAN\\source\\repos\\Foto_DB\\Foto_DB\\Foto_DB.csproj",
+      "projectUniqueName": "D:\\Загрузки\\ado-net-main (1)\\Practice_2\\Foto_DB\\Foto_DB\\Foto_DB.csproj",
       "projectName": "Foto_DB",
-      "projectPath": "C:\\Users\\DOSHAN\\source\\repos\\Foto_DB\\Foto_DB\\Foto_DB.csproj",
+      "projectPath": "D:\\Загрузки\\ado-net-main (1)\\Practice_2\\Foto_DB\\Foto_DB\\Foto_DB.csproj",
       "packagesPath": "C:\\Users\\DOSHAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DOSHAN\\source\\repos\\Foto_DB\\Foto_DB\\obj\\",
+      "outputPath": "D:\\Загрузки\\ado-net-main (1)\\Practice_2\\Foto_DB\\Foto_DB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DOSHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",

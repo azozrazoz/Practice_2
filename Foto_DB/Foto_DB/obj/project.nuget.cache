@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Q9teeaI8QdFakHgmdiP6MKJUSx6UtRIUABqSaBxsGNzk7BiKTS8fCbj5u8m/pHRb25+5BAx5mS5tKXg4WF2Nw==",
+  "dgSpecHash": "BEWZ22qo5lmJPgJIASV4d48OJQpDlnJyZYFvZbx0gU7GSRBKW+gpSJJHUpVd6STHHeMCy3a7SrYw+b9zy2O06Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DOSHAN\\source\\repos\\Foto_DB\\Foto_DB\\Foto_DB.csproj",
+  "projectFilePath": "D:\\Загрузки\\ado-net-main (1)\\Practice_2\\Foto_DB\\Foto_DB\\Foto_DB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DOSHAN\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\DOSHAN\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

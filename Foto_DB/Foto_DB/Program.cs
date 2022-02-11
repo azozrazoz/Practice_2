@@ -18,7 +18,7 @@ namespace Foto_DB
             List<Picture> pictures = new List<Picture>();
             List<Tags> tags = new List<Tags>();
 
-            Console.WriteLine("1 - Get all pictures, 2 - Create picture, 3 - Get all tags");
+            Console.WriteLine("1 - Get all pictures, 2 - Create picture, 3 - Get all tags, 4 - Add tag to picture");
             int command = Convert.ToInt32(Console.ReadLine());
 
             switch (command)
@@ -41,13 +41,13 @@ namespace Foto_DB
                     break;
                 case 2:
                     Console.Write("Enter id: ");
-                    int id = Convert.ToInt32(Console.ReadLine());
+                    int idPicture = Convert.ToInt32(Console.ReadLine());
                     Console.Write("Enter name: ");
-                    string name = Console.ReadLine();
+                    string namePicture = Console.ReadLine();
                     Console.Write("Enter image path: ");
-                    string imagePath = Console.ReadLine();
+                    string imagePathPicture = Console.ReadLine();
 
-                    PictureRepository.CreatePicture(connectionString, new Picture(id, name, imagePath));
+                    PictureRepository.CreatePicture(connectionString, new Picture(idPicture, namePicture, imagePathPicture));
                     break;
                 case 3:
                     TagRepository.GetTags(connectionString, ref tags);
@@ -55,6 +55,16 @@ namespace Foto_DB
                     {
                         Console.WriteLine($"Id: {tag.Id}, Name: {tag.Name}, PictureId: {tag.PictureId}");
                     }
+                    break;
+                case 4:
+                    Console.Write("Enter id: ");
+                    int idTag = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Enter name tag: ");
+                    string nameTag = Console.ReadLine();
+                    Console.Write("Enter picture id: ");
+                    int pictureId = Convert.ToInt32(Console.ReadLine());
+
+                    TagRepository.CreateTag(connectionString, new Tags(idTag, nameTag, pictureId));
                     break;
                 default:
                     break;
